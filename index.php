@@ -38,7 +38,7 @@
 									<input type="text" name="msg" class="form-control" placeholder="Enter Send to mail" >
 								</div>
 								<div class="form-group text-right">
-									<button type="submit" name="mail" class="btn btn-dark font-weight-bold">Submit</button>
+									<button type="submit" name="mail" class="btn btn-dark font-weight-bold">Send</button>
 								</div>
 							</form>
 						</div>
