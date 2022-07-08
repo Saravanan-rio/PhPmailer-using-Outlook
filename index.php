@@ -17,7 +17,7 @@
 		<div class="container-fluid">
 			<div class="row bg-dark">
 				<div class="col-md-12 p-5">
-					<h3 class="text-white"> Send Mail Using php</h3>
+					<h3 class="text-white"> Send Mail Using php in Outlook</h3>
 				</div>
 			</div>
 			<div class="row justify-content-center mt-5">
