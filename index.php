@@ -66,13 +66,13 @@ require 'includes/Exception.php';
  $mail->SMTPAuth = "true";
  $mail->SMTPSecure ="tls";
  $mail->Port ="587";
- $mail->Username ="saravananrio75@outlook.com";
- $mail->Password="@qwerty9876";
+ $mail->Username ="example mail.com";
+ $mail->Password="password";
  $mail->Subject="Test email";
- $mail->setFrom("saravananrio75@outlook.com");
+ $mail->setFrom("example mail.com");
  $mail->Body='fhbfsdg';
- $mail->addAddress("bernaldarwin@gmail.com");
- $mail->addReplyTo("alexibus4@gmail.com");
+ $mail->addAddress("example mail.com");
+ $mail->addReplyTo("example mail.com");
  $mail->send();
  if(!$mail->Send())
 			   {
