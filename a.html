@@ -34,13 +34,13 @@ use PHPMailer\PHPMailer\Exception;
  $mail->SMTPAuth = "true";
  $mail->SMTPSecure ="tls";
  $mail->Port ="587";
- $mail->Username ="saravananrio75@outlook.com";
- $mail->Password="@qwerty9876";
+ $mail->Username ="example.com";
+ $mail->Password="paswd";
  $mail->Subject="Test email";
- $mail->setFrom("saravananrio75@outlook.com");
+ $mail->setFrom("example.com");
  $mail->Body="This is plain body";
- $mail->addAddress("bernaldarwin@gmail.com");
- $mail->addReplyTo("alexibus4@gmail.com");
+ $mail->addAddress("receiver email");
+ $mail->addReplyTo("replyer email");
  if($mail->send()){
      echo "email sent";
  }
