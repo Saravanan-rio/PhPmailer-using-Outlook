@@ -40,13 +40,13 @@ $file=$_POST['file'];
  $mail->SMTPAuth = "true";
  $mail->SMTPSecure ="tls";
  $mail->Port ="587";
- $mail->Username ="saravananrio75@outlook.com";
- $mail->Password="@qwerty9876";
+ $mail->Username ="example mail.com";
+ $mail->Password="paswd";
  $mail->Subject="Test email";
- $mail->setFrom("saravananrio75@outlook.com");
+ $mail->setFrom("example mail.com");
  $mail->Body="$name,$sub";
  $mail->addAddress("$email");
- $mail->addReplyTo("alexibus4@gmail.com");
+ $mail->addReplyTo("replyer mail");
  $mail->addAttachment("$file");
  if($mail->send()){
      echo "email sent";
